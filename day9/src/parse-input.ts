@@ -13,5 +13,3 @@ export async function parseInputLines(): Promise<string[]> {
 
   return inputContent.trim().split("\n");
 }
-
-// export async function parseInput(): Promise<Input> {}
