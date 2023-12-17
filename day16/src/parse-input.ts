@@ -14,8 +14,8 @@ export async function parseInputLines(): Promise<string[]> {
   return inputContent.trim().split("\n");
 }
 
-export async function parseInput(): Promise<string[]> {
+export async function parseInput(): Promise<string[][]> {
   const lines = await parseInputLines();
 
-  return lines.map((line) => line.split(","))[0];
+  return lines.map((line) => line.split(""));
 }
