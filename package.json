@@ -38,7 +38,9 @@
     "day16-1": "node --loader ts-node/esm day16/src/task-1.ts",
     "day16-2": "node --loader ts-node/esm day16/src/task-2.ts",
     "day17-1": "node --loader ts-node/esm day17/src/task-1.ts",
-    "day17-2": "node --loader ts-node/esm day17/src/task-2.ts"
+    "day17-2": "node --loader ts-node/esm day17/src/task-2.ts",
+    "day18-1": "node --loader ts-node/esm day18/src/task-1.ts",
+    "day18-2": "node --loader ts-node/esm day18/src/task-2.ts"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^6.13.1",
